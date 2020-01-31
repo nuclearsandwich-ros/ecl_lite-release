@@ -1,0 +1,12 @@
+Source: ros-turbulent-ecl-lite
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-ros, ros-turbulent-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_lite
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-config, ros-turbulent-ecl-converters-lite, ros-turbulent-ecl-errors, ros-turbulent-ecl-io, ros-turbulent-ecl-sigslots-lite, ros-turbulent-ecl-time-lite, ros-turbulent-ros-workspace
+Description: Libraries and utilities for embedded and low-level linux development.
