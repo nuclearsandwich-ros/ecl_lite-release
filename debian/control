@@ -1,0 +1,13 @@
+Source: ros-turbulent-ecl-errors
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-ros, ros-turbulent-ecl-build, ros-turbulent-ecl-config, ros-turbulent-ecl-license, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_errors
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-errors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-config, ros-turbulent-ecl-license, ros-turbulent-ros-workspace
+Description: This library provides lean and mean error mechanisms.
+ It includes c style error functions as well as a few useful macros. For higher level mechanisms, refer to ecl_exceptions.
