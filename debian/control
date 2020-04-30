@@ -1,0 +1,12 @@
+Source: ros-verystable-ecl-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-ros, ros-verystable-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_lite
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-config, ros-verystable-ecl-converters-lite, ros-verystable-ecl-errors, ros-verystable-ecl-io, ros-verystable-ecl-sigslots-lite, ros-verystable-ecl-time-lite, ros-verystable-ros-workspace
+Description: Libraries and utilities for embedded and low-level linux development.
